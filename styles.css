@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "sb sb hr hr hr hr"
+    "sb sb nav nav nav nav"
+    "sb sb ct ct ct ct"
+    "sb sb ct ct ct ct"
+    "sb sb ct ct ct ct"
+    "sb sb ct ct ct ct"
+    "sb sb ct ct ct ct"
+    "sb sb ct ct ct ct"
+    "sb sb ct ct ct ct"
+    ;
+}
+
+.header{
+    grid-area: hr;
+    border: 1px solid black;
+}
+
+.header, .nav {
+    background-color: lightcoral;
+}
+
+.nav{
+    grid-area: nav;
+    border: 1px solid black;
+}
+
+.sidebar{
+    display: grid;
+    grid-area: sb;
+    border: 1px solid black;
+    background-color: lightblue;
+    grid: 0.5fr;
+}
+
+.content{
+    grid-area: ct;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 10px;
+    padding-left: 15px;
+    padding-top: 70px;
+    
+}
+
+.content-side {
+    border: 1px dashed black;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-y: scroll;
+}
+
+.article {
+    height: 180px;
+    width: 300px;
+    background-color: lightgreen;
+    
+}
