@@ -121,6 +121,7 @@ body {
     gap: 20px;
     position: sticky;
     top: 0;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 .nav-welcome-text {
@@ -267,6 +268,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     gap: 20px;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 .content-side-item:last-child {
@@ -282,6 +284,7 @@ body {
 
 .content-side-item > p {
     font-size: 12px;
+    color: #6B6E70;
 }
 
 .trending-users {
@@ -290,6 +293,7 @@ body {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 .trending-user-block {
@@ -314,7 +318,7 @@ body {
     font-size: 12px;
     margin: 0px;
     margin-top: 5px;
-
+    color: #6B6E70;
 }
 
 .articles {
@@ -338,6 +342,7 @@ body {
     padding: 20px;
     border-radius: 9px;
     border-left: 5px solid var(--flourish);
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 .article > p {
